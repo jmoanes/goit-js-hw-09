@@ -4,10 +4,9 @@
   "description": "Цей проект створено за допомогою Parcel. Для ознайомлення та налаштування  додаткових можливостей, [зверніться до документації](https://parceljs.org/).",
   "homepage": "https://github.com/jmoanes/goit-js-hw-09",
   "scripts": {
-    "start": "parcel src/*.html",
+    "start": "parcel src/index.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-09/",
-    "deploy": "gh-pages -d dist",
-    "predeploy": "npm run build"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
